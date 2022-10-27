@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <!-- style CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- titre -->
+    <header><h1>Weather</h1></header>
+    <main>
+      <!-- formulaire de saisie -->
+      <form>
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="saisissez une ville..."
+        />
+        <input type="button" value="Search" id="searchButton" />
+      </form>
+      <!-- zone d'affichage -->
+      <div id="card">
+        <h2 id="city">---</h2>
+        <div id="infos">
+          <h3 id="condition">Cloudy</h3>
+          <p id="temperature">🌡 Temperature :</p>
+          <p id="sunrise">☀ Sunrise :</p>
+          <p id="humidity">💧 Humidity :</p>
+        </div>
+      </div>
+    </main>
+    <!-- script JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
