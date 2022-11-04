@@ -11,8 +11,8 @@ const humidity = document.getElementById("humidity");
 const options = {
   method: "GET", // requête HTTP de type 'read' ou lecture
   headers: {
-    "X-RapidAPI-Key": "33a38a48e2msh345936a2215c570p1a003cjsn277d5a16ce04",
-    "X-RapidAPI-Host": "yahoo-weather5.p.rapidapi.com",
+    "X-RapidAPI-Key": "clé",
+    "X-RapidAPI-Host": "url",
   },
 };
 
